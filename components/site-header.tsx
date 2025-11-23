@@ -18,7 +18,7 @@ function SiteHeader() {
   return (
     <header className="py-3">
       <ViewContainer className="flex items-center justify-between">
-        <Link href="#">Next.js Template</Link>
+        <Link href="#">Social Links Profile</Link>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline" size="icon">

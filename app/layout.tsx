@@ -9,9 +9,9 @@ const josefinSans = Josefin_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js Template",
+  title: "Social Links Profile",
   description:
-    "A starter template repository with next.js using app router, pre-configured with typescript, tailwind css and shadcn/ui.",
+    "This is the solution to social links profile challenge on frontend mentor",
 };
 
 export default function HomeLayout({
