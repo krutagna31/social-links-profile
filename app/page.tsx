@@ -22,6 +22,7 @@ export default function Home() {
   return (
     <SectionContainer>
       <ViewContainer className="w-[min(var(--container-md),100vw)] text-center">
+        <h1 className="sr-only">Social Links Profile</h1>
         <Card className="py-12">
           <CardHeader>
             <div className="mb-4 flex justify-center">
