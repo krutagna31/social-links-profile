@@ -29,7 +29,7 @@ export default function HomeLayout({
           disableTransitionOnChange
         >
           <SiteHeader />
-          <main>{children}</main>
+          <main className="h-[calc(100vh-4rem)] grid place-content-center">{children}</main>
         </ThemeProvider>
       </body>
     </html>

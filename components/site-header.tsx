@@ -16,9 +16,9 @@ function SiteHeader() {
   const { setTheme } = useTheme();
 
   return (
-    <header className="py-3">
+    <header className="py-3 h-16">
       <ViewContainer className="flex items-center justify-between">
-        <Link href="#">Social Links Profile</Link>
+        <Link className="text-sm" href="#">Social Links Profile</Link>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline" size="icon">
